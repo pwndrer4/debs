@@ -1,1 +1,1 @@
-wget -np -nH -r –span-hosts limneos.net/repo/Packages
+wget -np -nH -r –span-hosts apt.bingner.com

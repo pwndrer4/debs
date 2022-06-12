@@ -1,3 +1,19 @@
+Package: net.limneos.MobileMiner
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Filename: ./debs/net.limneos.MobileMiner-1.0-1.deb
+Size: 995932
+MD5sum: cc49ff74c10638bd3eb4ada73c47ffdb
+SHA1: 9b2a786dbdbf798a525635ccde08be30e091b020
+SHA256: dd2fa4203abaf55d20753f0a0e9c196ff43e998fc23703c91de8eddb8c851a93
+Section: System
+Description: Mine ETN with your iPhone!
+Tag: role::hacker
+Author: Elias Limneos <limneoselias@gmail.com>
+Icon: file:///Applications/MobileMiner.app/AppIcon60x60@2x.png
+Name: MobileMiner
+
 Package: net.limneos.answeringmachinex
 Version: 1.2-60
 Architecture: iphoneos-arm

@@ -1,1 +1,1 @@
-wget -np -nH -r –span-hosts apt.bingner.com
+wget http://apt.25mao.com/debs/121.deb

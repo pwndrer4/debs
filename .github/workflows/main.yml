@@ -29,6 +29,12 @@ jobs:
       - name: Run a one-line script
         run: sh download.sh
 
+      - name: 'A'
+        run: |
+          cd /
+          dpkg-scanpackages -m ./debs > Packages
+          bzip2 Packages
+
       - name: 'Commit Files'
         id: commit
         run: |

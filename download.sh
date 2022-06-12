@@ -1,1 +1,1 @@
-wget -np -nH -r –span-hosts apt.25mao.com/debs/
+wget -np -nH -r –span-hosts limneos.net/repo/Packages

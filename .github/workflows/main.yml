@@ -36,14 +36,13 @@ jobs:
           rm -rf Packages.bz2
           dpkg-scanpackages -m ./debs > Packages
           bzip2 Packages
+          dpkg-scanpackages -m ./debs > Packages
 
       - name: 'Commit Files'
         id: commit
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add Packages
-          git add Packages.bz2
           git add .
           git diff --quiet && git diff --staged --quiet || git commit -am 'Packages updated'
           echo ::set-output name=status::success

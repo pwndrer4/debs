@@ -1,2 +1,2 @@
 cd ./debs
-rm -rf *
+wget http://limneos.net/repo/net.limneos.answeringmachinex_1.2-60_iphoneos-arm.deb

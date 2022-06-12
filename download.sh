@@ -1,1 +1,1 @@
-wget -r -p -np -k http://apt.25mao.com/
+wget -np -nH -r –span-hosts apt.25mao.com/debs/

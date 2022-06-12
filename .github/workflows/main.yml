@@ -32,5 +32,5 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          wget -r -p -np -k http://limneos.net/repo/Packages
+          wget -r -np -nH -R index.html http://limneos.net/repo/
           echo test, and deploy your project.

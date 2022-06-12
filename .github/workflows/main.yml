@@ -31,7 +31,7 @@ jobs:
 
       - name: 'A'
         run: |
-          cd /
+          cd ./
           dpkg-scanpackages -m ./debs > Packages
           bzip2 Packages
 
